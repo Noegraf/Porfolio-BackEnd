@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 @RestController
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://argprogrfrontenduno.web.app")
 @RequestMapping(path = "/api/usuario" )
 
 

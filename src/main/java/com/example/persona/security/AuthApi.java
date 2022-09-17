@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://argprogrfrontenduno.web.app")
 @RequestMapping
 public class AuthApi {
     @Autowired
