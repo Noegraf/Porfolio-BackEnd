@@ -25,8 +25,10 @@ public class Experiencia extends Base{
     @Column(name = "valor")
     private int valor;
 
-    @Column (name = "descripcion", length = 1500)
-    private String descripcion;
+    @Column (name = "img")
+    private String img;
+
+
 
     /*
     @ManyToMany
