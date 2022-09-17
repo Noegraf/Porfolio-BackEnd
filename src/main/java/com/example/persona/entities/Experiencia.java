@@ -19,11 +19,11 @@ import javax.persistence.*;
 @Audited
 public class Experiencia extends Base{
 
-    @Column(name = "nombre_empresa")
-    private String nombreEmpresa;
+    @Column(name = "nombre")
+    private String nombre;
 
-    @Column(name = "fecha")
-    private int fecha;
+    @Column(name = "valor")
+    private int valor;
 
     @Column (name = "descripcion", length = 1500)
     private String descripcion;
