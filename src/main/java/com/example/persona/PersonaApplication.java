@@ -27,7 +27,7 @@ public class PersonaApplication {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
 
-				registry.addMapping("/**").allowedOrigins("*");
+				registry.addMapping("/**").allowedOrigins("https://argprogrfrontenduno.web.app/");
 			}
 		};
 	}
@@ -35,7 +35,7 @@ public class PersonaApplication {
 	public CorsFilter corsFilter() {
 		CorsConfiguration corsConfiguration = new CorsConfiguration();
 		corsConfiguration.setAllowCredentials(true);
-		corsConfiguration.setAllowedOrigins(Arrays.asList()); /* saque un asterisco con comillas de las ()  */
+		corsConfiguration.setAllowedOrigins(Arrays.asList("https://argprogrfrontenduno.web.app/")); /* saque un asterisco con comillas de las ()  */
 
 		corsConfiguration.setAllowedHeaders(Arrays.asList("Origin", "Access-Control-Allow-Origin", "Content-Type",
 				"Accept", "Authorization", "Origin, Accept", "X-Requested-With",
