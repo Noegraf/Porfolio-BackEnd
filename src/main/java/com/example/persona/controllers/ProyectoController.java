@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @CrossOrigin(origins = "https://argprogrfrontenduno.web.app")
-@RequestMapping(path = "api/v1/proyectos")
+@RequestMapping(path = "/api/v1/proyectos")
 public class ProyectoController extends BaseControllerImpl<Proyecto, ProyectoServiceImpl> {
 }

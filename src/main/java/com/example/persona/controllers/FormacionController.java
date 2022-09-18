@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @CrossOrigin(origins = "https://argprogrfrontenduno.web.app")
-@RequestMapping(path = "api/v1/formaciones")
+@RequestMapping(path = "/api/v1/formaciones")
 public class FormacionController extends BaseControllerImpl<Formacion, FormacionServiceImpl>{
 }
